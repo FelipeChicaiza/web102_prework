@@ -1,17 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-    font-family: 'Cabin';
-    background-color: #758190;
+    font-family: 'Cabin', sans-serif;
+
+    background:linear-gradient(135deg, #4183ff, #e7e9ec );
+    background-size: 400% 400%;
+    color: #FFFFFF;
 }
 
 #tentacles {
-    width: 50px;
+    width: 80px;
 }
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background:linear-gradient(135deg, #378bf3, #91b4e9 );
     padding: 1%;
     align-items: center;
     margin-left: -10px;
@@ -21,10 +24,17 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: flex;
+    background-color: #91b4e9;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #719cdd;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -55,6 +65,7 @@ body {
     width: 300px;
     text-align: center;
     border-radius: 7px;
+    color: #000000;
 }
 
 .game-card:hover {
@@ -73,3 +84,13 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+.anton-sc-regular {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
